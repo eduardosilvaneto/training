@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration>
+<!-- $Id$ -->
+<configuration scan="true" scanPeriod="60 seconds">
+	<appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[%d{yyyy-MM-dd HH:mm:ss}] %-5level %logger{36} - [%mdc{id}]: %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="logfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<prudent>true</prudent>
+		<file></file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>./logs/demo/log-apps-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>15</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>[%d{yyyy-MM-dd HH:mm:ss}] %-5level %logger{36} - [%mdc{id}]: %msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="async-logfile" class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="logfile" />
+	</appender>	
+	
+	<appender name="metricfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<prudent>true</prudent>
+		<file></file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>./logs/demo-metrics/log-metrics-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>15</maxHistory>
+		</rollingPolicy>
+		<encoder>
+			<pattern>%msg%n</pattern>
+		</encoder>
+	</appender>
+	
+	<appender name="async-metricfile" class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="metricfile" />
+	</appender>
+	
+	<logger name="com.training.demo.metrics.TraceServiceImpl" level="info" additivity="false">
+		<appender-ref ref="async-metricfile" />
+	</logger>
+		
+	<root level="info">
+		<appender-ref ref="async-logfile" />
+		<appender-ref ref="console" />
+	</root>
+</configuration> 

@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f957942dba6, pid=40873, tid=40889
+#
+# JRE version: OpenJDK Runtime Environment (14.0.2+12) (build 14.0.2+12-46)
+# Java VM: OpenJDK 64-Bit Server VM (14.0.2+12-46, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x3ba6]  ImageDecompressor::decompress_resource(unsigned char*, unsigned char*, unsigned long long, ImageStrings const*, Endian*)+0x26
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/eduardo-neto/Documentos/workspace_spring/training/core.40873)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -XX:+ShowCodeDetailsInExceptionMessages -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:45905 -Dmaven.home=EMBEDDED -Dclassworlds.conf=/home/eduardo-neto/Documentos/workspace_spring/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6575072384896154371.tmp -Dmaven.multiModuleProjectDirectory=/home/eduardo-neto/Documentos/workspace_spring/training -Djansi.force=true -javaagent:/home/eduardo-neto/Documentos/programas/ECLIPSE/spring-tool-suite-4-4.8.0.RELEASE-e4.17.0-linux.gtk.x86_64/sts-4.8.0.RELEASE/configuration/org.eclipse.osgi/257/0/.cp/lib/javaagent-shaded.jar -Dfile.encoding=UTF-8 org.codehaus.plexus.classworlds.launcher.Launcher -B -s /home/eduardo-neto/Documentos/programas/apache-maven-3.3.1/conf/settings.xml spring-boot:run -Dstyle.color=always
+
+Host: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz, 4 cores, 15G, 

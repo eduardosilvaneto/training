@@ -1,0 +1,174 @@
+[2020-11-09 10:34:18] INFO  c.training.demo.TrainingApplication - []: Starting TrainingApplication on EISABA-NT0045 with PID 55025 (/home/eduardo-neto/Documentos/workspace_spring/training/target/classes started by eduardo-neto in /home/eduardo-neto/Documentos/workspace_spring/training)
+[2020-11-09 10:34:18] INFO  c.training.demo.TrainingApplication - []: No active profile set, falling back to default profiles: default
+[2020-11-09 10:34:19] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-11-09 10:34:19] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Finished Spring Data repository scanning in 95ms. Found 2 JPA repository interfaces.
+[2020-11-09 10:34:20] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat initialized with port(s): 8080 (http)
+[2020-11-09 10:34:20] INFO  o.a.coyote.http11.Http11NioProtocol - []: Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-09 10:34:20] INFO  o.a.catalina.core.StandardService - []: Starting service [Tomcat]
+[2020-11-09 10:34:20] INFO  o.a.catalina.core.StandardEngine - []: Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-09 10:34:20] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring embedded WebApplicationContext
+[2020-11-09 10:34:20] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - []: Root WebApplicationContext: initialization completed in 1918 ms
+[2020-11-09 10:34:20] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Starting...
+[2020-11-09 10:34:21] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Start completed.
+[2020-11-09 10:34:21] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - []: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2020-11-09 10:34:21] INFO  o.s.s.c.ThreadPoolTaskExecutor - []: Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-09 10:34:21] INFO  o.h.jpa.internal.util.LogHelper - []: HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-11-09 10:34:21] INFO  org.hibernate.Version - []: HHH000412: Hibernate ORM core version 5.4.22.Final
+[2020-11-09 10:34:21] INFO  o.h.annotations.common.Version - []: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-11-09 10:34:21] INFO  org.hibernate.dialect.Dialect - []: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-11-09 10:34:22] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - []: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-11-09 10:34:22] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - []: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-11-09 10:34:27] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - []: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-11-09 10:34:28] INFO  o.a.coyote.http11.Http11NioProtocol - []: Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-09 10:34:28] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-09 10:34:28] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Triggering deferred initialization of Spring Data repositories…
+[2020-11-09 10:34:28] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Spring Data repositories initialized!
+[2020-11-09 10:34:28] INFO  c.training.demo.TrainingApplication - []: Started TrainingApplication in 10.438 seconds (JVM running for 11.658)
+[2020-11-09 10:35:50] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-09 10:35:50] INFO  o.s.web.servlet.DispatcherServlet - []: Initializing Servlet 'dispatcherServlet'
+[2020-11-09 10:35:50] INFO  o.s.web.servlet.DispatcherServlet - []: Completed initialization in 18 ms
+[2020-11-09 10:46:51] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - []: Application shutdown requested.
+[2020-11-09 10:46:52] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - []: Closing JPA EntityManagerFactory for persistence unit 'default'
+[2020-11-09 10:46:52] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - []: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2020-11-09 10:46:52] INFO  o.s.s.c.ThreadPoolTaskExecutor - []: Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-09 10:46:52] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Shutdown initiated...
+[2020-11-09 10:46:52] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Shutdown completed.
+[2020-11-09 10:47:53] INFO  c.training.demo.TrainingApplication - []: Starting TrainingApplication on EISABA-NT0045 with PID 55890 (/home/eduardo-neto/Documentos/workspace_spring/training/target/classes started by eduardo-neto in /home/eduardo-neto/Documentos/workspace_spring/training)
+[2020-11-09 10:47:53] INFO  c.training.demo.TrainingApplication - []: No active profile set, falling back to default profiles: default
+[2020-11-09 10:47:55] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-11-09 10:47:55] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Finished Spring Data repository scanning in 85ms. Found 2 JPA repository interfaces.
+[2020-11-09 10:47:56] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat initialized with port(s): 8080 (http)
+[2020-11-09 10:47:56] INFO  o.a.coyote.http11.Http11NioProtocol - []: Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-09 10:47:56] INFO  o.a.catalina.core.StandardService - []: Starting service [Tomcat]
+[2020-11-09 10:47:56] INFO  o.a.catalina.core.StandardEngine - []: Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-09 10:47:56] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring embedded WebApplicationContext
+[2020-11-09 10:47:56] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - []: Root WebApplicationContext: initialization completed in 2806 ms
+[2020-11-09 10:47:56] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Starting...
+[2020-11-09 10:47:57] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Start completed.
+[2020-11-09 10:47:57] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - []: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2020-11-09 10:47:57] INFO  o.s.s.c.ThreadPoolTaskExecutor - []: Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-09 10:47:57] INFO  o.h.jpa.internal.util.LogHelper - []: HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-11-09 10:47:57] INFO  org.hibernate.Version - []: HHH000412: Hibernate ORM core version 5.4.22.Final
+[2020-11-09 10:47:57] INFO  o.h.annotations.common.Version - []: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-11-09 10:47:58] INFO  org.hibernate.dialect.Dialect - []: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-11-09 10:47:58] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - []: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-11-09 10:47:58] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - []: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-11-09 10:48:02] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - []: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-11-09 10:48:02] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - []: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-11-09 10:48:03] INFO  o.a.coyote.http11.Http11NioProtocol - []: Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-09 10:48:03] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-09 10:48:03] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - []: Context refreshed
+[2020-11-09 10:48:03] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - []: Found 1 custom documentation plugin(s)
+[2020-11-09 10:48:03] INFO  s.d.s.w.s.ApiListingReferenceScanner - []: Scanning for api listing references
+[2020-11-09 10:48:03] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Triggering deferred initialization of Spring Data repositories…
+[2020-11-09 10:48:03] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Spring Data repositories initialized!
+[2020-11-09 10:48:03] INFO  c.training.demo.TrainingApplication - []: Started TrainingApplication in 10.393 seconds (JVM running for 13.189)
+[2020-11-09 10:48:33] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-09 10:48:33] INFO  o.s.web.servlet.DispatcherServlet - []: Initializing Servlet 'dispatcherServlet'
+[2020-11-09 10:48:34] INFO  o.s.web.servlet.DispatcherServlet - []: Completed initialization in 86 ms
+[2020-11-09 12:11:27] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m52s891ms210µs461ns).
+[2020-11-09 12:28:52] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45m57s35ms204µs196ns).
+[2020-11-09 12:30:20] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s764ms737µs474ns).
+[2020-11-09 12:32:38] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s648ms643µs199ns).
+[2020-11-09 12:41:49] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m12s154ms935µs992ns).
+[2020-11-09 12:45:32] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m44s160ms478µs823ns).
+[2020-11-09 12:50:23] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m54s792ms724µs285ns).
+[2020-11-09 12:53:06] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s640ms768µs549ns).
+[2020-11-09 12:54:27] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m8s75ms811µs544ns).
+[2020-11-09 12:58:15] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m50s560ms815µs387ns).
+[2020-11-09 13:01:54] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m37s475ms965µs562ns).
+[2020-11-09 13:04:24] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s232ms357µs859ns).
+[2020-11-09 13:06:24] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s962ms218µs9ns).
+[2020-11-09 13:10:43] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m40s572ms868µs435ns).
+[2020-11-09 13:21:13] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m9s719ms83µs901ns).
+[2020-11-09 13:23:38] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m21s463ms475µs12ns).
+[2020-11-09 13:26:16] WARN  com.zaxxer.hikari.pool.HikariPool - []: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s824ms254µs22ns).
+[2020-11-09 15:07:31] INFO  c.training.demo.TrainingApplication - []: Starting TrainingApplication on EISABA-NT0045 with PID 20073 (/home/eduardo-neto/Documentos/workspace_spring/training/target/classes started by eduardo-neto in /home/eduardo-neto/Documentos/workspace_spring/training)
+[2020-11-09 15:07:31] INFO  c.training.demo.TrainingApplication - []: No active profile set, falling back to default profiles: default
+[2020-11-09 15:07:37] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-11-09 15:07:37] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Finished Spring Data repository scanning in 261ms. Found 2 JPA repository interfaces.
+[2020-11-09 15:07:42] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat initialized with port(s): 8080 (http)
+[2020-11-09 15:07:43] INFO  o.a.coyote.http11.Http11NioProtocol - []: Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-09 15:07:43] INFO  o.a.catalina.core.StandardService - []: Starting service [Tomcat]
+[2020-11-09 15:07:43] INFO  o.a.catalina.core.StandardEngine - []: Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-09 15:07:43] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring embedded WebApplicationContext
+[2020-11-09 15:07:43] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - []: Root WebApplicationContext: initialization completed in 10944 ms
+[2020-11-09 15:07:43] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Starting...
+[2020-11-09 15:07:45] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Start completed.
+[2020-11-09 15:07:45] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - []: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2020-11-09 15:07:46] INFO  o.s.s.c.ThreadPoolTaskExecutor - []: Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-09 15:07:46] INFO  o.h.jpa.internal.util.LogHelper - []: HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-11-09 15:07:47] INFO  org.hibernate.Version - []: HHH000412: Hibernate ORM core version 5.4.22.Final
+[2020-11-09 15:07:48] INFO  o.h.annotations.common.Version - []: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-11-09 15:07:48] INFO  org.hibernate.dialect.Dialect - []: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-11-09 15:07:51] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - []: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-11-09 15:07:51] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - []: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-11-09 15:07:54] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - []: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-11-09 15:07:54] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - []: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-11-09 15:07:55] INFO  o.a.coyote.http11.Http11NioProtocol - []: Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-09 15:07:55] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-09 15:07:55] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - []: Context refreshed
+[2020-11-09 15:07:55] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - []: Found 1 custom documentation plugin(s)
+[2020-11-09 15:07:55] INFO  s.d.s.w.s.ApiListingReferenceScanner - []: Scanning for api listing references
+[2020-11-09 15:07:55] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Triggering deferred initialization of Spring Data repositories…
+[2020-11-09 15:07:56] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Spring Data repositories initialized!
+[2020-11-09 15:07:56] INFO  c.training.demo.TrainingApplication - []: Started TrainingApplication in 26.399 seconds (JVM running for 29.774)
+[2020-11-09 15:11:24] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-09 15:11:24] INFO  o.s.web.servlet.DispatcherServlet - []: Initializing Servlet 'dispatcherServlet'
+[2020-11-09 15:11:24] INFO  o.s.web.servlet.DispatcherServlet - []: Completed initialization in 15 ms
+[2020-11-09 15:21:28] INFO  c.training.demo.TrainingApplication - []: Starting TrainingApplication on EISABA-NT0045 with PID 22159 (/home/eduardo-neto/Documentos/workspace_spring/training/target/classes started by eduardo-neto in /home/eduardo-neto/Documentos/workspace_spring/training)
+[2020-11-09 15:21:28] INFO  c.training.demo.TrainingApplication - []: No active profile set, falling back to default profiles: default
+[2020-11-09 15:21:29] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2020-11-09 15:21:29] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - []: Finished Spring Data repository scanning in 64ms. Found 2 JPA repository interfaces.
+[2020-11-09 15:21:30] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat initialized with port(s): 8080 (http)
+[2020-11-09 15:21:30] INFO  o.a.coyote.http11.Http11NioProtocol - []: Initializing ProtocolHandler ["http-nio-8080"]
+[2020-11-09 15:21:30] INFO  o.a.catalina.core.StandardService - []: Starting service [Tomcat]
+[2020-11-09 15:21:30] INFO  o.a.catalina.core.StandardEngine - []: Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-09 15:21:30] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring embedded WebApplicationContext
+[2020-11-09 15:21:30] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - []: Root WebApplicationContext: initialization completed in 2130 ms
+[2020-11-09 15:21:30] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Starting...
+[2020-11-09 15:21:30] INFO  com.zaxxer.hikari.HikariDataSource - []: HikariPool-1 - Start completed.
+[2020-11-09 15:21:30] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - []: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+[2020-11-09 15:21:31] INFO  o.s.b.a.e.w.ServletEndpointRegistrar - []: Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+[2020-11-09 15:21:31] INFO  o.s.s.c.ThreadPoolTaskExecutor - []: Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-09 15:21:31] INFO  o.h.jpa.internal.util.LogHelper - []: HHH000204: Processing PersistenceUnitInfo [name: default]
+[2020-11-09 15:21:31] INFO  org.hibernate.Version - []: HHH000412: Hibernate ORM core version 5.4.22.Final
+[2020-11-09 15:21:31] INFO  o.h.annotations.common.Version - []: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2020-11-09 15:21:31] INFO  org.hibernate.dialect.Dialect - []: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2020-11-09 15:21:32] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - []: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2020-11-09 15:21:32] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - []: Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2020-11-09 15:21:37] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - []: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2020-11-09 15:21:38] INFO  o.s.b.a.e.web.EndpointLinksResolver - []: Exposing 14 endpoint(s) beneath base path '/actuator'
+[2020-11-09 15:21:38] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - []: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2020-11-09 15:21:38] INFO  o.s.s.c.ThreadPoolTaskScheduler - []: Initializing ExecutorService
+[2020-11-09 15:21:39] INFO  o.a.coyote.http11.Http11NioProtocol - []: Starting ProtocolHandler ["http-nio-8080"]
+[2020-11-09 15:21:39] INFO  o.s.b.w.e.tomcat.TomcatWebServer - []: Tomcat started on port(s): 8080 (http) with context path ''
+[2020-11-09 15:21:39] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - []: Context refreshed
+[2020-11-09 15:21:39] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - []: Found 1 custom documentation plugin(s)
+[2020-11-09 15:21:39] INFO  s.d.s.w.s.ApiListingReferenceScanner - []: Scanning for api listing references
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_1
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_2
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingDELETE_1
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_3
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_4
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_5
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_6
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_7
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_8
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_9
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_10
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_11
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_12
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_13
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_14
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_15
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_16
+[2020-11-09 15:21:39] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - []: Generating unique operation named: handleUsingGET_17
+[2020-11-09 15:21:39] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Triggering deferred initialization of Spring Data repositories…
+[2020-11-09 15:21:39] INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - []: Spring Data repositories initialized!
+[2020-11-09 15:21:39] INFO  c.training.demo.TrainingApplication - []: Started TrainingApplication in 11.978 seconds (JVM running for 13.499)
+[2020-11-09 15:21:40] INFO  d.c.b.a.c.r.ApplicationRegistrator - []: Application registered itself as 9158065aff31
+[2020-11-09 15:21:40] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-09 15:21:40] INFO  o.s.web.servlet.DispatcherServlet - []: Initializing Servlet 'dispatcherServlet'
+[2020-11-09 15:21:40] INFO  o.s.web.servlet.DispatcherServlet - []: Completed initialization in 9 ms
+[2020-11-09 15:22:40] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - []: jolokia-actuator-endpoint: No access restrictor found, access to any MBean is allowed
